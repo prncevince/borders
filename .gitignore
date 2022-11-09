@@ -1,0 +1,30 @@
+# R/RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+# R Markdown
+*.nb.html
+/*_cache
+test.Rmd
+test.html
+# Hugo & Blogdown
+.hugo_build.lock
+# website hosted content - default Hugo `publishDir` config param
+# see https://gohugo.io/getting-started/configuration/#publishdir
+/public
+# User RStudio & R Markdown to preview markdown files before on remote repo
+README.html
+README_files/
+CONTRIBUTING.html
+# A personal note directory - add your notes in here
+/notes
+# For the data
+# Vim
+*.swp
+# OS
+.DS_Store
+# plots
+/plots
+# misc
+test.Rmd
