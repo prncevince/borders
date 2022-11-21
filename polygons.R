@@ -1,6 +1,5 @@
 library(dplyr)
 library(sf)
-
 source('bbox.R')
 
 # load boundary dataset - natural earth ----
