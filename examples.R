@@ -10,7 +10,7 @@ l_sfc_kn_10km_inout <- buffers_inner_outer(sfc_kn_poly, dist = 10000, max_cells 
 toc()
 
 tic()
-l_sfc_bb_kn_10km_inout <- buffers_inner_outer(d_kn_bb_poly$geometry, dist = 10000, max_cells = 10000)
+l_sfc_bb_kn_10km_inout <- buffers_inner_outer(d_kn_bb_poly$geometry, dist = 10000, max_cells = 20000)
 toc()
 
 # regular plot function
